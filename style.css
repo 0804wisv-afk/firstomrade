@@ -8,3 +8,10 @@ section {
     border: 1px solid black;
     border-radius: 20px;
 }
+
+section:nth-child(1) {
+    background-color: rgb(158, 0, 0);
+}
+section:nth-child(2) {
+    background-color: rgb(158, 0, 0);
+}
