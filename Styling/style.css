@@ -1,6 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FFEDDF;
+    --text-color: black;
+    --header-color: #FFEDDF;
+
+}
+
 body {
     background-color: rgb(245, 234, 221);
     display: flex;
@@ -50,5 +61,27 @@ h3 {
 }
 
 .max {
-    max-width: 60dvw;
+    max-width: 70dvw;
+}
+
+.rutor {
+    display: flex;
+}
+
+.ruta {
+    height: 25rem;
+    flex: 1;
+}
+
+
+#left {
+    background-color: #E4B7E5;
+}
+
+#middle {
+    background-color: #B288C0;
+}
+
+#right {
+    background-color: #7E5A9B;
 }
